@@ -8339,3 +8339,14 @@ del {
 .starups-area .starups-img .play-btn a:hover {
   color: #ff1313;
 }
+
+/* Social Icons Hover */
+#facebook:hover{
+  color: #4267B2;
+}
+#twitter:hover{
+  color: #1DA1F2;
+}
+#instagram:hover{
+  color:#8A3AB9;
+}
