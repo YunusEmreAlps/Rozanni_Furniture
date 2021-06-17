@@ -8121,6 +8121,16 @@ del {
 }
 
 /*# sourceMappingURL=style.css.map */
+#logoresponsive{
+  width: 240px;
+}
+
+@media only screen and (max-width:768px) {
+  #logoresponsive {
+    width: 180px;
+  }
+}
+
 /* Video Part*/
 .starups-area {
   display: flex;
