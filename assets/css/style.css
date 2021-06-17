@@ -8151,7 +8151,7 @@ del {
   background-size: cover;
   background-repeat: no-repeat;
   justify-content: center;
-  height: 700px;
+  height: 600px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   .starups-area .starups {
@@ -8285,14 +8285,16 @@ del {
 }
 .starups-area .starups-img {
   width: 50%;
-  background-image: url(../img/gallery/section_bg03.png);
+  background-image: url(../img/hero/interior.jpg);
   background-size: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left top;
   position: relative;
-  height: 700px;
+  height: 600px;
+  overflow:hidden;
 }
+
 @media (max-width: 575px) {
   .starups-area .starups-img {
     width: 100%;
