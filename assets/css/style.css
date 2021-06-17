@@ -3474,7 +3474,7 @@ hero-btn {
 /* line 43, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_h1-hero.scss */
 .slider-area {
   position: relative;
-  background-image: url(../img/hero/h1_hero.jpg);
+  background-image: url(../img/hero/apartment.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -8121,3 +8121,209 @@ del {
 }
 
 /*# sourceMappingURL=style.css.map */
+/* Video Part*/
+.starups-area {
+  display: flex;
+  align-items: center;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .starups-area {
+    display: block;
+  }
+}
+@media (max-width: 575px) {
+  .starups-area {
+    display: block;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .starups-area {
+    display: block;
+  }
+}
+.starups-area .starups {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  padding: 0 9%;
+  background-image: url(../img/gallery/section_bg03.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  height: 700px;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+  .starups-area .starups {
+    padding-right: 35px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .starups-area .starups {
+    padding: 0 30px;
+  }
+}
+@media (max-width: 575px) {
+  .starups-area .starups {
+    padding: 0 30px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .starups-area .starups {
+    width: 100%;
+    height: 500px;
+  }
+}
+@media (max-width: 575px) {
+  .starups-area .starups {
+    width: 100%;
+    height: 400px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .starups-area .starups {
+    width: 100%;
+    height: 400px;
+  }
+}
+.starups-area .starups .starups-details {
+  padding-right: 117px;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+  .starups-area .starups .starups-details {
+    padding-right: 0px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .starups-area .starups .starups-details {
+    padding-right: 30px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .starups-area .starups .starups-details {
+    padding-right: 0px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .starups-area .starups .starups-details {
+    padding-right: 0px;
+    margin-top: 40px;
+  }
+}
+@media (max-width: 575px) {
+  .starups-area .starups .starups-details {
+    padding-right: 0px;
+    margin-top: 40px;
+  }
+}
+.starups-area .starups .starups-details span {
+  margin-bottom: 22px;
+  display: block;
+  color: #9fabbe;
+}
+.starups-area .starups .starups-details h3 {
+  font-size: 35px;
+  display: block;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 53px;
+}
+@media (max-width: 575px) {
+  .starups-area .starups .starups-details h3 {
+    font-size: 21px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .starups-area .starups .starups-details h3 {
+    font-size: 28px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .starups-area .starups .starups-details h3 {
+    font-size: 28px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .starups-area .starups .starups-details h3 {
+    font-size: 43px;
+  }
+}
+.starups-area .starups .starups-details p {
+  color: #9fabbe;
+}
+@media (max-width: 575px) {
+  .starups-area .starups .starups-details p {
+    font-size: 15px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .starups-area .starups .starups-details p {
+    font-size: 13px;
+  }
+}
+.starups-area .starups .starups-details .starups-list ul {
+  display: flex;
+  margin-bottom: 18px;
+}
+.starups-area .starups .starups-details .starups-list ul li svg {
+  position: relative;
+  top: 4px;
+}
+.starups-area .starups .starups-details .starups-list ul li p {
+  padding-left: 20px;
+  color: #9fabbe;
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .starups-area .starups .starups-details .starups-list ul li p {
+    padding-left: 9px;
+  }
+}
+@media (max-width: 575px) {
+  .starups-area .starups .starups-details .starups-list ul li p {
+    padding-left: 9px;
+  }
+}
+.starups-area .starups-img {
+  width: 50%;
+  background-image: url(../img/gallery/section_bg03.png);
+  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left top;
+  position: relative;
+  height: 700px;
+}
+@media (max-width: 575px) {
+  .starups-area .starups-img {
+    width: 100%;
+    height: 500px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .starups-area .starups-img {
+    width: 100%;
+    height: 500px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .starups-area .starups-img {
+    width: 100%;
+    height: 400px;
+  }
+}
+.starups-area .starups-img .play-btn {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  right: 0;
+  text-align: center;
+}
+.starups-area .starups-img .play-btn a {
+  display: inline-block;
+  color: #fff;
+  font-size: 60px;
+}
+.starups-area .starups-img .play-btn a:hover {
+  color: #ff1313;
+}
