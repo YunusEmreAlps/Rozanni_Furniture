@@ -240,8 +240,13 @@
     });
 
 
-
-
-
+  /*------------------
+	Popup
+	--------------------*/
+	$('.img-popup').magnificPopup({
+		type: 'image',
+		mainClass: 'img-popup-warp',
+		removalDelay: 400,
+	});
 
 })(jQuery);
