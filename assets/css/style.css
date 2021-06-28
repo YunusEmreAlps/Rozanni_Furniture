@@ -3612,6 +3612,7 @@ hero-btn {
 
 /* line 143, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_h1-hero.scss */
 .hero-overly::before {
+  opacity: 0.2;
   position: absolute;
   content: "";
   background-color: rgba(1, 10, 28, 0.6);
